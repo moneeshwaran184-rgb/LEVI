@@ -2,6 +2,10 @@
 
 LEVI combines Handy speech recognition, Ollama reasoning, Piper speech and Vosk wake detection. Windows 10/11 x64; internet required for installation and online actions. Local conversation can run offline after downloads.
 
+## Visual setup launcher
+
+Open **LEVI Setup.exe** for the graphical setup dashboard. If Windows Application Control blocks the unsigned executable, **Open_Setup.cmd** opens the same interface through PowerShell where your policy allows it. The dashboard runs each install step in the background, displays logs and an activity indicator, and reports completion or failure. It includes audio configuration, Handy settings instructions, the setup guide and Launch LEVI. The activity bar is not a measured download percentage. Handy settings still require the one-time manual steps shown in the interface.
+
 ## Start here
 
 1. Download/extract this whole folder. Keep the EXEs beside the scripts.

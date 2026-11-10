@@ -45,3 +45,6 @@ Run `powershell -NoProfile -ExecutionPolicy Bypass -File Build.ps1` in this fold
 - Install failed: setup stops on errors; review the failing command and rerun. Models are not bundled in GitHub.
 
 On the build machine, Application Control blocked executing the unsigned EXEs. Compilation succeeded, but EXE launch validation is incomplete. Script launchers (.cmd) are included for systems whose policy permits these scripts; do not disable your organization's application-control policy.
+
+## Visual setup interface
+Open LEVI Setup.exe (or Open_Setup.cmd where allowed). Use Install Ollama first, then Install Handy. Configure Audio opens the device selectors after dependencies are installed. Handy Settings shows the required manual settings. Launch LEVI opens the three service tabs. Downloads run in background child processes; progress output and errors appear in the log. Closing the dashboard is blocked while an operation runs so installation is not accidentally abandoned. Installers may still display their own Windows permission dialogs.
