@@ -1,0 +1,17 @@
+.venv/
+data/
+voices/
+wake_models/
+models/
+config.local.json
+__pycache__/
+*.pyc
+*.log
+*.sqlite3*
+*.dpapi
+*.backup*
+*.zip
+
+*.bak
+*.exe.bak
+desktop_apps.json

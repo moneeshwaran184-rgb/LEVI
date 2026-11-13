@@ -1,0 +1,22 @@
+{
+  "HANDY_CHAT_MODEL": "qwen3:0.6b",
+  "HANDY_CPU_THREADS": "4",
+  "HANDY_MODEL_KEEP_ALIVE": "5m",
+  "HANDY_WAKE_ENABLED": "1",
+  "HANDY_WAKE_SILENCE_SECONDS": "0.8",
+  "HANDY_ACTIONS_ENABLED": "1",
+  "HANDY_MEMORY_ENABLED": "1",
+  "HANDY_VISION_ENABLED": "0",
+  "VISION_MODEL": "qwen3-vl:2b",
+  "HANDY_MICROPHONE": "",
+  "HANDY_SPEAKER": "",
+  "HANDY_EXE": "",
+  "HANDY_OUTPUT_DIR": "",
+  "HANDY_CLOUD_ENABLED": "1",
+  "HANDY_CLOUD_PROVIDER": "gemini",
+  "HANDY_CLOUD_API_KEY": "",
+  "HANDY_CLOUD_MODEL": "gemini-2.5-flash-lite",
+  "HANDY_CLOUD_MODELS": "gemini-2.5-flash-lite",
+  "HANDY_CLOUD_URL": "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+  "SPOTIFY_CLIENT_ID": ""
+}

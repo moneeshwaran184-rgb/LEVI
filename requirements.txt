@@ -1,0 +1,7 @@
+piper-tts[http]==1.8.0
+vosk==0.3.45
+sounddevice>=0.5,<0.6
+Pillow>=11,<13
+
+webrtcvad-wheels==2.0.14.post1
+numpy>=1.26,<3
